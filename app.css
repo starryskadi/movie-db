@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.movie-poster {
+    position: relative;
+}
+
+.movie-poster .backdrop {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(0deg, black 0%, transparent 25%);
+}
+
+.movie-poster .rating {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.pagination .page-item a {
+    background-color: transparent;
+    color: white;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #ffffff;
+    color: black;
+}
